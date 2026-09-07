@@ -175,3 +175,7 @@ dist
 .DS_Store
 
 *.p12
+
+# Accidental tsc emit next to sources (dist comes from tsup)
+src/**/*.js
+tests/**/*.js

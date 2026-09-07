@@ -12,10 +12,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/miguelangarano/open-factura.git"
+    "url": "https://github.com/javierBorja/open-factura.git"
   },
   "scripts": {
     "build": "tsup",
+    "prepare": "npm run build",
     "start": "tsc ./src/index.ts",
     "publish-changes": "npm run build & npm link & npm link open-factura & npm publish"
   },
